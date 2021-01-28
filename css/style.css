@@ -156,6 +156,7 @@ img {
 }
 
 .header-contact {
+  display: block;
   color: var(--primary-text-color);
   font-weight: var(--medium-font-weight);
   font-size: 14px;
@@ -168,14 +169,11 @@ img {
   color: var(--accent-color);
 }
 
-.header-contacts-mail {
+.header-contact-mail {
   outline: red solid;
-  min-width: 135px;
 }
 
-.envelop {
-  padding-top: 2px;
-  padding-bottom: 2px;
+.icon-envelope {
   margin-right: 10px;
   fill: currentColor;
 }

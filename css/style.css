@@ -20,7 +20,7 @@
 body {
   color: var(--primary-text-color);
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: var(--bold-font-weight);
   letter-spacing: var(--letter-spacing);
 }
@@ -70,7 +70,7 @@ img {
   padding: 0px;
 
   color: var(--black-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.38;
 }
@@ -153,7 +153,9 @@ img {
   display: flex;
   margin-left: auto;
   padding: 0px;
+}
 
+.header-contact {
   color: var(--primary-text-color);
   font-weight: var(--medium-font-weight);
   font-size: 14px;
@@ -161,9 +163,21 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
+}
+
+.header-contacts-mail {
+  outline: red solid;
+  min-width: 135px;
+}
+
+.envelop {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* <<<<<<<<END HEADER >>>>>>>> */
@@ -184,7 +198,7 @@ img {
 
 .hero-title {
   margin-bottom: 30px;
-  margin-top: 0px;
+  max-width: 696px;
 
   color: var(--primary-white-color);
   font-weight: var(--black-font-weight);

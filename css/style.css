@@ -539,7 +539,7 @@ img {
 .footer-social-list {
   display: flex;
   justify-content: space-between;
-  max-width: 206px;
+  min-width: 206px;
 }
 
 .social-list-item {
